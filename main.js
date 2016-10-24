@@ -1,17 +1,17 @@
 var cards = ["queen", "queen," "king", "king"];
 var cardsInPlay = [];
 
-// if (cardTwo === cardFour) {
-// 	alert ("Sorry, try again.");
-// } else if (cardTwo === cardThree) {
-// 	alert ("Sorry, try again.");
-// } else if (cardOne === cardFour) {
-// 	alert ("Sorry, try again.");
-// } else if (cardOne === cardThree) {
-// 	alert ("Sorry, try again.");
-// } else {
-// 	alert ("You found a match!");
-// }
+if (cardTwo === cardFour) {
+	alert ("Sorry, try again.");
+} else if (cardTwo === cardThree) {
+	alert ("Sorry, try again.");
+} else if (cardOne === cardFour) {
+	alert ("Sorry, try again.");
+} else if (cardOne === cardThree) {
+	alert ("Sorry, try again.");
+} else {
+	alert ("You found a match!");
+}
 
 var gameBoard = document.getElementyById('game-board');
 
